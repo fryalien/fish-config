@@ -82,10 +82,6 @@ abbr d 'du -sh *'
 abbr df 'df -h'
 abbr sfi 'source ~/.config/fish/config.fish'
 abbr c 'clear'
-
-# SHORCUTS FOR PROGRAMS
-abbr v 'nvim'
-abbr V 'sudo nvim'
 abbr e 'micro'
 
 # PLACES
@@ -105,11 +101,6 @@ abbr x 'startx'
 abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
 
-# SOURCE CONFIG FILES
-abbr fis 'source ~/.config/fish/config.fish'
-abbr zshs 'source ~/.zshrc'
-abbr bas ' source ~/.bashrc'
-
 # YOUTUBE DOWNLOAD
 abbr yab 'cd ~/Downloads/; yt-dlp -x --audio-format mp3 -f bestaudio '
 abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 '
@@ -117,21 +108,9 @@ abbr yv 'cd ~/Downloads/; yt-dlp '
 
 #git stuff
 abbr gc 'cd ~/Public; git clone'
-abbr g-dots 'cd ~/Public; git clone https://github.com/fryalien/dotfiles'
-abbr g-notes 'cd ~/Public; git clone https://github.com/fryalien/notes'
-
-# PACMAN clean packages
-abbr pkcl 'sudo paccache -r'
 
 # MICRO EDITOR THEME
 export "MICRO_TRUECOLOR=1"
 
 # NEW FISH CONFIG
 abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/fish-config/refs/heads/main/ubuntu.fish -o ~/.config/fish/config.fish'
-
-# DOWNLOAD GIT EOS-XFCE-VM
-abbr eosxvm 'cd ~/Public/; git clone https://github.com/fryalien/eos-xfce-vm.git'
-
-# DOWNLOAD GIT EOS-AUTO-INSTALL
-abbr eosa 'cd ~/Public/; git clone https://github.com/fryalien/eos-xfce-autoinstall'
-
