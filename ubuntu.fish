@@ -114,4 +114,4 @@ abbr gc 'cd ~/Public; git clone'
 export "MICRO_TRUECOLOR=1"
 
 # NEW FISH CONFIG
-abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/fish-config/refs/heads/main/ubuntu.fish -o ~/.config/fish/config.fish'
+abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/fish-config/refs/heads/main/ubuntu.fish -o ~/.config/fish/config.fish; source ~/.config/fish/config.fish'
