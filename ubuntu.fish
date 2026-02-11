@@ -63,6 +63,7 @@ abbr u 'sudo apt update && sudo apt upgrade'
 abbr i 'sudo apt install'
 abbr pkr 'sudo apt remove'
 abbr pks 'sudo apt search'
+abbr up 'sudo apt update && sudo apt upgrade; flatpak update -y'
 
 # INSTALL PACKAGES WITH FLATPAK
 abbr f 'flatpak install'
