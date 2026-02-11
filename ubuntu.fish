@@ -127,7 +127,7 @@ abbr pkcl 'sudo paccache -r'
 export "MICRO_TRUECOLOR=1"
 
 # NEW FISH CONFIG
-abbr dfi 'curl -L https://github.com/fryalien/fish-config/blob/main/ubuntu.fish -o ~/.config/fish/config.fish; source ~/.config/fish/config.fish'
+abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/fish-config/refs/heads/main/ubuntu.fish -o ~/.config/fish/config.fish'
 
 # DOWNLOAD GIT EOS-XFCE-VM
 abbr eosxvm 'cd ~/Public/; git clone https://github.com/fryalien/eos-xfce-vm.git'
